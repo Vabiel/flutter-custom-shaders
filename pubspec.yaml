@@ -1,0 +1,26 @@
+name: custom_shaders
+description: "A simple example demonstrating how to work with custom shaders."
+
+publish_to: 'none'
+
+version: 0.0.1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_hsvcolor_picker: ^1.5.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  shaders:
+    - shaders/snowflake.frag
+    - shaders/galaxy.frag
