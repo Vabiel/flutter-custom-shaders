@@ -1,7 +1,6 @@
 import 'package:custom_shaders/src/app_shaders.dart';
 import 'package:custom_shaders/src/shader_painter.dart';
 import 'package:custom_shaders/src/shader_view.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hsvcolor_picker/flutter_hsvcolor_picker.dart';
 
